@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sarabun', sans-serif;
+}
+
+body {
+    background: #ededed;
+}
+
+header[class='main-header'] {
+    background: darkturquoise;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.elevesContainer {
+    width: 70%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.eleve {
+    background: #fff;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px #888888;
+    min-width: 200px;
+    margin-top: 1rem;
+}
+
+input[type='submit'], a{
+    background: rgba(255, 0, 0, 0.62);
+    color: white;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    padding: .3rem;
+}
+
+#ajouterEleve, #modifierEleve, #ajouterMug {
+    width: 70%;
+    margin: 0 auto 5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    background: #fff;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px #888888;
+    margin: 0 auto;
+}
+
+.form h3 {
+    color: darkturquoise;
+    text-align: center;
+}
+
+.form input {
+    margin-top: 1rem;
+    outline: none;
+}
+
+.form input[type='text'], .form input[type='number'] {
+    border: none;
+    border-bottom: 2px solid darkturquoise;
+    outline: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.form select {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    padding: .8rem;
+    border: 2px solid darkturquoise;
+}
+
+.form label {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.form input[type='submit'], .form input[type='submit'] {
+    background: darkturquoise;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+
+.modifications {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modifications a {
+    background: rgba(65, 105, 225, 0.64);
+    color: #fff;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+.modifications a[class='mug'] {
+    background: rgba(141, 44, 230, 0.6);
+}
+
+.eleve b {
+    float: right;
+}
+
+#ajouterEleve form {
+    margin-top: 4rem;
+}
+
+
+.container {
+    width: 50%;
+    margin: 3rem auto;
+    background: #f4f4f4;
+}
+
+.container h1 {
+    background: blueviolet;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.eleve_mug {
+    margin: 3rem auto;
+}
+
+.eleve_mug h3 {
+    margin-bottom: 2rem;
+}
+
+.mugsContainer ul{
+    list-style-type: none;
+}
+
+.container a {
+    text-decoration: none;
+    background: rgba(141, 44, 230, 0.6);
+    color: white;
+    cursor: pointer;
+    padding: .5rem;
+}
